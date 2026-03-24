@@ -212,6 +212,18 @@ push_channel:
         channel_name_list:
           - "子频道21"
           - "子频道22"
+  - name: 推送通道_QQ_openclaw
+    enable: true
+    type: qq_bot_claw
+    base_url: https://api.sgroup.qq.com
+    # 机器人ID，如果启动该推送则必填，https://q.qq.com/qqbot/#/developer/developer-setting
+    appid: "你的appid"
+    # 机器人密钥，如果启动该推送则必填
+    appsecret: "你的appsecret"
+    # 接收用户的 openid 列表，支持多个，如果启动该推送则必填
+    openid_list:
+      - "openid1"
+      - "openid2"
   - name: 推送通道_NapCatQQ
     enable: false
     type: napcat_qq

@@ -8,6 +8,7 @@ from .feishu_bot import FeishuBot
 from .gotify import Gotify
 from .napcat_qq import NapCatQQ
 from .qq_bot import QQBot
+from .qq_bot_claw import QQBotClaw
 from .server_chan_3 import ServerChan3
 from .server_chan_turbo import ServerChanTurbo
 from .telegram_bot import TelegramBot
@@ -27,6 +28,7 @@ _channel_type_to_class = {
     "feishu_bot": FeishuBot,
     "telegram_bot": TelegramBot,
     "qq_bot": QQBot,
+    "qq_bot_claw": QQBotClaw,
     "napcat_qq": NapCatQQ,
     "bark": Bark,
     "gotify": Gotify,
